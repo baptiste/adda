@@ -1,19 +1,26 @@
+A simple R wrapper for ADDA simulations
+========================================
 
-## @knitr invisible, echo=FALSE, results='hide'
+This document assumes that [adda](http://code.google.com/p/a-dda/) is installed and available at the command line under `../adda/src/seq/adda` (to be modified as appropriate). A basic wrapper creates a command line that is passed to the shell, executed, and the results (cross-sections) are captured internally; all being done within R.
+
+```{r invisible, echo=FALSE, results='hide'}
 library(knitr)
 opts_chunk$set(cache=TRUE, fig.width=10, tidy=FALSE)
 library(ggplot2)
 theme_set(theme_minimal() + theme(panel.background=element_rect(fill=NA)))
+```
 
-
-## @knitr setup
+First, we load some helpful libraries.
+```{r setup}
 library(dielectric) # dielectric function of Au and Ag
 library(plyr) # convenient functions to loop over parameters
 library(reshape2) # reshaping data from/to long format
 library(ggplot2) # plotting framework
+```
 
+## R wrapper: calling adda, and collecting the results
 
-## @knitr wrapper
+```{r wrapper}
 adda_spectrum <- function(shape = "ellipsoid",
                          euler = c(0, 0, 0),
                          AR = 1.3,
@@ -48,9 +55,13 @@ adda_spectrum <- function(shape = "ellipsoid",
 
 # testing that it works
 adda_spectrum(test = FALSE)
+```
 
+## Basic run: extinction, scattering and absorption spectra of a gold ellipsoid
 
-## @knitr basic
+We first define a wavelength-dependent dielectric function for the scatterer, here gold in the visible region. A loop is then performed over the wavelengths; the cross-sections are stored in a matrix, and plotted at the end.
+
+```{r basic }
 gold <- epsAu(seq(400, 700, length=100))
 str(gold)
 
@@ -79,9 +90,15 @@ legend("topleft", legend=expression(sigma[ext],sigma[abs],sigma[sca], "",
                                      "x-polarisation", "y-polarisation"),
        inset=0.01, col=c(1:3, NA, 1, 1), lty=c(1,1,1, NA, 1, 2), 
        bg  = "grey95", box.col=NA)
+```
 
+## Working with a higher-level, functional interface
 
-## @knitr simulation, fig.height=4
+We define a convenience function to run a simulation (full spectrum), with a specific value of particle size and aspect ratio. Instead of using an explicit `for` loop, we use a very convenient package `plyr` which defines functions such as `mdply` to encapsulate `for` loops in a more expressive and succint notation.  
+
+_Note that to keep the simulation short, `-dpl` is kept too small to ensure a reliable result for the cross-sections._
+
+```{r simulation, fig.height=4}
 gold <- epsAu(seq(400, 700, length=200))
          
 simulation <- function(radius = 20, AR = 1.3, ..., material=gold){
@@ -107,9 +124,13 @@ str(test)
 
 qplot(wavelength, value, colour = polarisation, 
       facets = ~ type, data = test, geom = 'line')
+```
 
+## More complete example: comparing spectra for varying particle size and aspect ratios
 
-## @knitr multiple
+We can very conveniently call this same function with many parameters, and let R collect the results in a single dataset.
+
+```{r multiple}
 params <- expand.grid(radius = c(20, 22),
                       AR = c(1.2, 1.3))
 
@@ -123,5 +144,4 @@ ggplot(all, aes(wavelength, value,
                      y = expression(sigma/nm^2),
                      colour = 'aspect ratio') +
   scale_colour_brewer(palette = 'Set1')
-
-
+```

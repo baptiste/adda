@@ -1,5 +1,7 @@
 # History files
 .Rhistory
+src/seq
+.DS_Store
 
 # Example code in package build process
 *-Ex.R
