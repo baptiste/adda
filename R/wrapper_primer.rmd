@@ -108,9 +108,11 @@ simulation <- function(radius = 20, AR = 1.3, ..., material=gold){
                        AR = AR)
   results <- mdply(params, adda_spectrum, ..., test=FALSE)
   
+  # reshape the data from wide to long format
   m <- melt(results, measure.vars = c("V1","V2","V3","V4","V5","V6"))
-  m$polarisation <- m$type <- factor(m$variable)
   
+  # create new ID columns to keep track of polarisation and type
+  m$polarisation <- m$type <- factor(m$variable)
   levels(m$polarisation) <- list(x = c('V1','V3','V5'), 
                                  y = c('V2','V4','V6'))
   levels(m$type) <- list(extinction = c('V1','V2'), 
