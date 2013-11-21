@@ -1,0 +1,92 @@
+
+## ----loading, echo=FALSE-------------------------------------------------
+require(knitr)
+opts_knit$set(tidy=FALSE)
+library(dielectric)
+library(plyr)
+
+
+## ----function------------------------------------------------------------
+
+adda_run <- function(ii=1, wavelength=500, epsilon=epsAu(wavelength)$epsilon, 
+                     size = 20, grid=10, ..., 
+                     run="", params = "params.txt", comment="",
+                     adda = "../src/seq/adda"){
+  m <- sqrt(epsilon)
+  part <- paste0(" -size ", size*1e-3, " -grid ", grid)
+  dispersion <- paste(" -lambda ", wavelength*1e-3, "-m ", Re(m), Im(m), collapse="")
+  dir <- paste0(" -dir tmp_", ii)
+  
+  ## append the parameters for this run to a file
+  cat(file=params, paste(ii, dir, part, dispersion, ..., comment, "\n"), append=TRUE)
+  # append command to be run in the shell
+  cmd <- paste0(adda, part, dir, dispersion, ..., "\n")
+  cat(file=run, cmd, append=TRUE)
+  
+  # display string during testing phase
+  if(run != "" && interactive()) 
+    return(cmd)
+}
+
+adda_run()
+
+
+## ----params--------------------------------------------------------------
+params <- data.frame(wavelength = seq(400, 600, by=10))
+params <- transform(params, ii=seq_along(wavelength), epsilon=epsAu(wavelength)$epsilon)
+head(params)
+
+
+## ----files---------------------------------------------------------------
+## remove previous runs
+unlink("tmp_*", recursive=TRUE)
+
+## create the files
+cat("#!/bin/bash\n", file="test.sh")
+cat("# run parameters", format(Sys.time(), "%a %b %d %X %Y"), "\n", file="params.txt")
+m_ply(params, adda_run, run="test.sh", int=" -int fcd ", comment="testing")
+
+
+## ----, engine='bash', echo=FALSE-----------------------------------------
+head params.txt
+
+
+## ----, engine='bash', echo=FALSE-----------------------------------------
+head test.sh
+
+
+## ----run, engine='bash'--------------------------------------------------
+chmod a+rwx test.sh # give exec permissions
+./test.sh > log 
+
+
+## ----log-----------------------------------------------------------------
+read_log <- function(f){
+  file <- paste0(f, "/CrossSec-Y")
+  tmp <- read.table(file, sep="=", head=FALSE, colClasses=c("NULL", "numeric"))
+  xsec <- data.frame(extinction = tmp[2,1], absorption=tmp[4,1])
+  xsec$ii <- as.numeric(gsub("tmp_([0-9]+)", "\\1", f))
+  xsec
+}
+
+results <- ldply(list.files(pattern="tmp_"), read_log)
+results <- arrange(results, ii) # reorder by index
+results <- merge(results, params, by.y="ii")
+str(results)
+
+
+## ----comparison, message=FALSE,warning=FALSE-----------------------------
+library(mie)
+library(ggplot2)
+
+exact <- mie(params$wavelength, params$epsilon,
+             radius = 10, medium = 1.0,
+             efficiency = TRUE)
+str(exact)
+
+ggplot(exact, aes(wavelength, extinction)) +
+  geom_line() +
+  geom_line(data=results, linetype=2)
+
+
+
