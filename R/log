@@ -1,0 +1,958 @@
+all data is saved in 'tmp_1'
+box dimensions: 50x50x50
+lambda: 0.4   Dipoles/lambda: 1001.54
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 65752
+Memory usage for MatVec matrices: 36.2 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 62.2 MB
+
+here we go, calc Y
+
+CoupleConstant:1.473071967e-11+7.876207812e-12i
+x_0 = E_inc
+RE_000 = 1.5191814572E-01
+RE_001 = 9.4912319248E-02  + 
+RE_002 = 8.6170256182E-02  + 
+RE_003 = 7.4902919270E-02  + 
+RE_004 = 4.8951428894E-02  + 
+RE_005 = 2.5897881614E-02  + 
+RE_006 = 1.3696548124E-02  + 
+RE_007 = 6.9695187007E-03  + 
+RE_008 = 3.5906381487E-03  + 
+RE_009 = 2.4767241925E-03  + 
+RE_010 = 1.4754428945E-03  + 
+RE_011 = 1.0022909791E-03  + 
+RE_012 = 6.0203482224E-04  + 
+RE_013 = 3.8609883187E-04  + 
+RE_014 = 2.5625055156E-04  + 
+RE_015 = 1.5440295805E-04  + 
+RE_016 = 1.0194409080E-04  + 
+RE_017 = 6.6332912920E-05  + 
+RE_018 = 4.5564013028E-05  + 
+RE_019 = 3.4510562204E-05  + 
+RE_020 = 2.9123061633E-05  + 
+RE_021 = 2.7530727763E-05  + 
+RE_022 = 2.6582211531E-05  + 
+RE_023 = 1.7781409119E-05  + 
+RE_024 = 8.4208942859E-06  + 
+Cext	= 0.0001107017069
+Qext	= 0.3523744772
+Cabs	= 0.0001100625917
+Qabs	= 0.3503401104
+all data is saved in 'tmp_2'
+box dimensions: 50x50x50
+lambda: 0.4068965517   Dipoles/lambda: 1018.8
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 65752
+Memory usage for MatVec matrices: 36.2 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 62.2 MB
+
+here we go, calc Y
+
+CoupleConstant:1.478389359e-11+7.859424463e-12i
+x_0 = E_inc
+RE_000 = 1.5181440244E-01
+RE_001 = 9.4352137815E-02  + 
+RE_002 = 8.5158417870E-02  + 
+RE_003 = 7.4756960689E-02  + 
+RE_004 = 4.9582189863E-02  + 
+RE_005 = 2.6403742539E-02  + 
+RE_006 = 1.3981077512E-02  + 
+RE_007 = 7.1182493313E-03  + 
+RE_008 = 3.6612840847E-03  + 
+RE_009 = 2.5266785927E-03  + 
+RE_010 = 1.5063833761E-03  + 
+RE_011 = 1.0236052032E-03  + 
+RE_012 = 6.1627352559E-04  + 
+RE_013 = 3.9524386426E-04  + 
+RE_014 = 2.6313390502E-04  + 
+RE_015 = 1.5884664064E-04  + 
+RE_016 = 1.0496312528E-04  + 
+RE_017 = 6.8261993929E-05  + 
+RE_018 = 4.6506510482E-05  + 
+RE_019 = 3.4663528704E-05  + 
+RE_020 = 2.8367419556E-05  + 
+RE_021 = 2.5620749420E-05  + 
+RE_022 = 2.5284238384E-05  + 
+RE_023 = 1.9797713611E-05  + 
+RE_024 = 1.0016956143E-05  + 
+RE_025 = 4.8690829688E-06  + 
+Cext	= 0.0001084808765
+Qext	= 0.3453053547
+Cabs	= 0.0001078814654
+Qabs	= 0.3433973697
+all data is saved in 'tmp_3'
+box dimensions: 50x50x50
+lambda: 0.4137931034   Dipoles/lambda: 1036.07
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 65752
+Memory usage for MatVec matrices: 36.2 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 62.2 MB
+
+here we go, calc Y
+
+CoupleConstant:1.481686794e-11+7.863567304e-12i
+x_0 = E_inc
+RE_000 = 1.5166159178E-01
+RE_001 = 9.3774034801E-02  + 
+RE_002 = 8.4128783819E-02  + 
+RE_003 = 7.4498697145E-02  + 
+RE_004 = 5.0046627191E-02  + 
+RE_005 = 2.6777283483E-02  + 
+RE_006 = 1.4178114713E-02  + 
+RE_007 = 7.2159917610E-03  + 
+RE_008 = 3.7036573411E-03  + 
+RE_009 = 2.5554977241E-03  + 
+RE_010 = 1.5231037661E-03  + 
+RE_011 = 1.0345112133E-03  + 
+RE_012 = 6.2361567356E-04  + 
+RE_013 = 3.9970836617E-04  + 
+RE_014 = 2.6665154522E-04  + 
+RE_015 = 1.6111924696E-04  + 
+RE_016 = 1.0647172174E-04  + 
+RE_017 = 6.9170442095E-05  + 
+RE_018 = 4.6766572906E-05  + 
+RE_019 = 3.4363291576E-05  + 
+RE_020 = 2.7354615578E-05  + 
+RE_021 = 2.3526972663E-05  + 
+RE_022 = 2.2718871373E-05  + 
+RE_023 = 2.0318259905E-05  + 
+RE_024 = 1.1572707822E-05  + 
+RE_025 = 5.6082253810E-06  + 
+Cext	= 0.0001065945073
+Qext	= 0.3393008549
+Cabs	= 0.000106032343
+Qabs	= 0.3375114302
+all data is saved in 'tmp_4'
+box dimensions: 48x48x48
+lambda: 0.4206896552   Dipoles/lambda: 1009.37
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 57856
+Memory usage for MatVec matrices: 32.1 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 55.0 MB
+
+here we go, calc Y
+
+CoupleConstant:1.68580395e-11+8.975111795e-12i
+x_0 = E_inc
+RE_000 = 1.5300615769E-01
+RE_001 = 9.3569833567E-02  + 
+RE_002 = 8.3156864095E-02  + 
+RE_003 = 7.4508604286E-02  + 
+RE_004 = 5.0190615896E-02  + 
+RE_005 = 2.7021851541E-02  + 
+RE_006 = 1.3881998166E-02  + 
+RE_007 = 6.8778874263E-03  + 
+RE_008 = 3.8174068360E-03  + 
+RE_009 = 2.5367539811E-03  + 
+RE_010 = 1.5440151220E-03  + 
+RE_011 = 1.0341697311E-03  + 
+RE_012 = 6.4754650630E-04  + 
+RE_013 = 3.9260494595E-04  + 
+RE_014 = 2.6531278338E-04  + 
+RE_015 = 1.6538515234E-04  + 
+RE_016 = 1.0865982321E-04  + 
+RE_017 = 6.9741844187E-05  + 
+RE_018 = 4.7371262174E-05  + 
+RE_019 = 3.4297485110E-05  + 
+RE_020 = 2.5602831729E-05  + 
+RE_021 = 2.2117718788E-05  + 
+RE_022 = 2.1562577295E-05  + 
+RE_023 = 1.9096184855E-05  + 
+RE_024 = 1.0721923445E-05  + 
+RE_025 = 5.3643013891E-06  + 
+Cext	= 0.0001052278043
+Qext	= 0.3349505042
+Cabs	= 0.0001046998824
+Qabs	= 0.3332700765
+all data is saved in 'tmp_5'
+box dimensions: 48x48x48
+lambda: 0.4275862069   Dipoles/lambda: 1025.91
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 57856
+Memory usage for MatVec matrices: 32.1 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 55.0 MB
+
+here we go, calc Y
+
+CoupleConstant:1.686521918e-11+9.056403779e-12i
+x_0 = E_inc
+RE_000 = 1.5297637267E-01
+RE_001 = 9.3159623880E-02  + 
+RE_002 = 8.2300640845E-02  + 
+RE_003 = 7.4204098970E-02  + 
+RE_004 = 5.0456549675E-02  + 
+RE_005 = 2.7202348489E-02  + 
+RE_006 = 1.3947085820E-02  + 
+RE_007 = 6.9003825016E-03  + 
+RE_008 = 3.8221790977E-03  + 
+RE_009 = 2.5368171722E-03  + 
+RE_010 = 1.5413617509E-03  + 
+RE_011 = 1.0303528284E-03  + 
+RE_012 = 6.4510638533E-04  + 
+RE_013 = 3.9043952426E-04  + 
+RE_014 = 2.6395430177E-04  + 
+RE_015 = 1.6450041446E-04  + 
+RE_016 = 1.0798092769E-04  + 
+RE_017 = 6.9160463516E-05  + 
+RE_018 = 4.6666967869E-05  + 
+RE_019 = 3.3432034084E-05  + 
+RE_020 = 2.4356728966E-05  + 
+RE_021 = 2.0341324536E-05  + 
+RE_022 = 1.9241796412E-05  + 
+RE_023 = 1.8334357633E-05  + 
+RE_024 = 1.1597166151E-05  + 
+RE_025 = 5.8576556197E-06  + 
+Cext	= 0.0001042892085
+Qext	= 0.3319628609
+Cabs	= 0.0001037926662
+Qabs	= 0.3303823178
+all data is saved in 'tmp_6'
+box dimensions: 48x48x48
+lambda: 0.4344827586   Dipoles/lambda: 1042.46
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 57856
+Memory usage for MatVec matrices: 32.1 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 55.0 MB
+
+here we go, calc Y
+
+CoupleConstant:1.686941569e-11+9.18953338e-12i
+x_0 = E_inc
+RE_000 = 1.5314315111E-01
+RE_001 = 9.2956456877E-02  + 
+RE_002 = 8.1669394949E-02  + 
+RE_003 = 7.4029710808E-02  + 
+RE_004 = 5.0741318040E-02  + 
+RE_005 = 2.7371635906E-02  + 
+RE_006 = 1.4001150643E-02  + 
+RE_007 = 6.9169968922E-03  + 
+RE_008 = 3.8249498201E-03  + 
+RE_009 = 2.5358315492E-03  + 
+RE_010 = 1.5376477846E-03  + 
+RE_011 = 1.0259015160E-03  + 
+RE_012 = 6.4204628990E-04  + 
+RE_013 = 3.8790837169E-04  + 
+RE_014 = 2.6229756155E-04  + 
+RE_015 = 1.6335909178E-04  + 
+RE_016 = 1.0711179338E-04  + 
+RE_017 = 6.8456602576E-05  + 
+RE_018 = 4.5914928207E-05  + 
+RE_019 = 3.2586833079E-05  + 
+RE_020 = 2.3233574173E-05  + 
+RE_021 = 1.8813256227E-05  + 
+RE_022 = 1.7120157046E-05  + 
+RE_023 = 1.6883163133E-05  + 
+RE_024 = 1.2252323933E-05  + 
+RE_025 = 6.3883908366E-06  + 
+Cext	= 0.0001039448292
+Qext	= 0.3308666676
+Cabs	= 0.0001034762887
+Qabs	= 0.3293752569
+all data is saved in 'tmp_7'
+box dimensions: 46x46x46
+lambda: 0.4413793103   Dipoles/lambda: 1016.09
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 51104
+Memory usage for MatVec matrices: 32.1 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 52.3 MB
+
+here we go, calc Y
+
+CoupleConstant:1.911251117e-11+1.062270099e-11i
+x_0 = E_inc
+RE_000 = 1.5792400151E-01
+RE_001 = 9.5542470024E-02  + 
+RE_002 = 8.1799722119E-02  + 
+RE_003 = 7.6286580661E-02  + 
+RE_004 = 5.4973568257E-02  + 
+RE_005 = 2.9940255480E-02  + 
+RE_006 = 1.5170256734E-02  + 
+RE_007 = 7.6508213762E-03  + 
+RE_008 = 4.0626297373E-03  + 
+RE_009 = 2.7507745064E-03  + 
+RE_010 = 1.6197608836E-03  + 
+RE_011 = 1.0804901773E-03  + 
+RE_012 = 6.7369888537E-04  + 
+RE_013 = 4.0889706718E-04  + 
+RE_014 = 2.7171302461E-04  + 
+RE_015 = 1.6173128701E-04  + 
+RE_016 = 1.0982943627E-04  + 
+RE_017 = 7.2301595050E-05  + 
+RE_018 = 4.8118300750E-05  + 
+RE_019 = 3.3340365756E-05  + 
+RE_020 = 2.3567381234E-05  + 
+RE_021 = 1.6543657906E-05  + 
+RE_022 = 1.2130549257E-05  + 
+RE_023 = 9.9662192316E-06  + 
+Cext	= 0.0001044910339
+Qext	= 0.332605291
+Cabs	= 0.000104046682
+Qabs	= 0.3311908751
+all data is saved in 'tmp_8'
+box dimensions: 46x46x46
+lambda: 0.4482758621   Dipoles/lambda: 1031.97
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 51104
+Memory usage for MatVec matrices: 32.1 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 52.3 MB
+
+here we go, calc Y
+
+CoupleConstant:1.915284153e-11+1.09189908e-11i
+x_0 = E_inc
+RE_000 = 1.5889956006E-01
+RE_001 = 9.6141529306E-02  + 
+RE_002 = 8.2017516241E-02  + 
+RE_003 = 7.6778754851E-02  + 
+RE_004 = 5.5724241197E-02  + 
+RE_005 = 3.0401049890E-02  + 
+RE_006 = 1.5381225560E-02  + 
+RE_007 = 7.7549737712E-03  + 
+RE_008 = 4.1182085493E-03  + 
+RE_009 = 2.7904701120E-03  + 
+RE_010 = 1.6416186461E-03  + 
+RE_011 = 1.0952720955E-03  + 
+RE_012 = 6.8362105766E-04  + 
+RE_013 = 4.1521722167E-04  + 
+RE_014 = 2.7635671459E-04  + 
+RE_015 = 1.6447041064E-04  + 
+RE_016 = 1.1163095725E-04  + 
+RE_017 = 7.3326870534E-05  + 
+RE_018 = 4.8583158110E-05  + 
+RE_019 = 3.3452217177E-05  + 
+RE_020 = 2.3383823960E-05  + 
+RE_021 = 1.6110936809E-05  + 
+RE_022 = 1.1479608162E-05  + 
+RE_023 = 9.0312771606E-06  + 
+Cext	= 0.0001055297727
+Qext	= 0.3359116992
+Cabs	= 0.0001051057447
+Qabs	= 0.3345619763
+all data is saved in 'tmp_9'
+box dimensions: 44x44x44
+lambda: 0.4551724138   Dipoles/lambda: 1002.26
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 44720
+Memory usage for MatVec matrices: 24.8 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 42.5 MB
+
+here we go, calc Y
+
+CoupleConstant:2.198759393e-11+1.291358292e-11i
+x_0 = E_inc
+RE_000 = 1.6249023385E-01
+RE_001 = 9.7223074017E-02  + 
+RE_002 = 8.2759318433E-02  + 
+RE_003 = 7.7311185750E-02  + 
+RE_004 = 5.6205719769E-02  + 
+RE_005 = 3.0633701592E-02  + 
+RE_006 = 1.5465637168E-02  + 
+RE_007 = 7.9212296396E-03  + 
+RE_008 = 4.1035602145E-03  + 
+RE_009 = 2.7349140024E-03  + 
+RE_010 = 1.6821249590E-03  + 
+RE_011 = 1.1406453196E-03  + 
+RE_012 = 7.1707362124E-04  + 
+RE_013 = 4.1990143444E-04  + 
+RE_014 = 2.8855988773E-04  + 
+RE_015 = 1.7762436285E-04  + 
+RE_016 = 1.2039545824E-04  + 
+RE_017 = 7.4773480404E-05  + 
+RE_018 = 4.9138200807E-05  + 
+RE_019 = 3.3174059857E-05  + 
+RE_020 = 2.2851622653E-05  + 
+RE_021 = 1.6439464799E-05  + 
+RE_022 = 1.1743329551E-05  + 
+RE_023 = 9.4401149228E-06  + 
+Cext	= 0.0001074758337
+Qext	= 0.3421062038
+Cabs	= 0.0001070673421
+Qabs	= 0.3408059349
+all data is saved in 'tmp_10'
+box dimensions: 44x44x44
+lambda: 0.4620689655   Dipoles/lambda: 1017.45
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 44720
+Memory usage for MatVec matrices: 24.8 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 42.5 MB
+
+here we go, calc Y
+
+CoupleConstant:2.217506633e-11+1.345245514e-11i
+x_0 = E_inc
+RE_000 = 1.6497424590E-01
+RE_001 = 9.9201004946E-02  + 
+RE_002 = 8.4472017690E-02  + 
+RE_003 = 7.9180980474E-02  + 
+RE_004 = 5.8068442835E-02  + 
+RE_005 = 3.1919554562E-02  + 
+RE_006 = 1.6179527874E-02  + 
+RE_007 = 8.3213755922E-03  + 
+RE_008 = 4.3299433143E-03  + 
+RE_009 = 2.9001236380E-03  + 
+RE_010 = 1.7885888204E-03  + 
+RE_011 = 1.2168435874E-03  + 
+RE_012 = 7.6860824171E-04  + 
+RE_013 = 4.5204805797E-04  + 
+RE_014 = 3.1245998736E-04  + 
+RE_015 = 1.9308417171E-04  + 
+RE_016 = 1.3138512613E-04  + 
+RE_017 = 8.1883055044E-05  + 
+RE_018 = 5.3922900961E-05  + 
+RE_019 = 3.6426721795E-05  + 
+RE_020 = 2.4991667820E-05  + 
+RE_021 = 1.7816898456E-05  + 
+RE_022 = 1.2466949596E-05  + 
+RE_023 = 9.7115333747E-06  + 
+Cext	= 0.0001100942156
+Qext	= 0.3504407725
+Cabs	= 0.0001096967806
+Qabs	= 0.3491756974
+all data is saved in 'tmp_11'
+box dimensions: 44x44x44
+lambda: 0.4689655172   Dipoles/lambda: 1032.63
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 44720
+Memory usage for MatVec matrices: 24.8 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 42.5 MB
+
+here we go, calc Y
+
+CoupleConstant:2.249176942e-11+1.409357874e-11i
+x_0 = E_inc
+RE_000 = 1.6853511241E-01
+RE_001 = 1.0215857445E-01  + 
+RE_002 = 8.7264696347E-02  + 
+RE_003 = 8.2104541028E-02  + 
+RE_004 = 6.0898503534E-02  + 
+RE_005 = 3.3963865941E-02  + 
+RE_006 = 1.7362089771E-02  + 
+RE_007 = 8.9965527526E-03  + 
+RE_008 = 4.7168252333E-03  + 
+RE_009 = 3.1853832265E-03  + 
+RE_010 = 1.9767866636E-03  + 
+RE_011 = 1.3536522077E-03  + 
+RE_012 = 8.6233057820E-04  + 
+RE_013 = 5.1128575707E-04  + 
+RE_014 = 3.5661525939E-04  + 
+RE_015 = 2.2196874098E-04  + 
+RE_016 = 1.5208081017E-04  + 
+RE_017 = 9.5448501477E-05  + 
+RE_018 = 6.3204885968E-05  + 
+RE_019 = 4.2886301290E-05  + 
+RE_020 = 2.9426194484E-05  + 
+RE_021 = 2.0890558684E-05  + 
+RE_022 = 1.4423311997E-05  + 
+RE_023 = 1.0978320758E-05  + 
+RE_024 = 9.2015675882E-06  + 
+Cext	= 0.0001134952051
+Qext	= 0.3612664581
+Cabs	= 0.0001131033997
+Qabs	= 0.3600193029
+all data is saved in 'tmp_12'
+box dimensions: 44x44x44
+lambda: 0.475862069   Dipoles/lambda: 1047.82
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 44720
+Memory usage for MatVec matrices: 24.8 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 42.5 MB
+
+here we go, calc Y
+
+CoupleConstant:2.299145704e-11+1.482331735e-11i
+x_0 = E_inc
+RE_000 = 1.7340949673E-01
+RE_001 = 1.0630235765E-01  + 
+RE_002 = 9.1387168094E-02  + 
+RE_003 = 8.6364285376E-02  + 
+RE_004 = 6.5026882011E-02  + 
+RE_005 = 3.7086961678E-02  + 
+RE_006 = 1.9232206201E-02  + 
+RE_007 = 1.0081568023E-02  + 
+RE_008 = 5.3450940147E-03  + 
+RE_009 = 3.6538066654E-03  + 
+RE_010 = 2.2918279760E-03  + 
+RE_011 = 1.5858284460E-03  + 
+RE_012 = 1.0238236054E-03  + 
+RE_013 = 6.1478503638E-04  + 
+RE_014 = 4.3442172012E-04  + 
+RE_015 = 2.7354415922E-04  + 
+RE_016 = 1.8941426410E-04  + 
+RE_017 = 1.2026743481E-04  + 
+RE_018 = 8.0421014254E-05  + 
+RE_019 = 5.5065133038E-05  + 
+RE_020 = 3.7969825570E-05  + 
+RE_021 = 2.6990012278E-05  + 
+RE_022 = 1.8528921045E-05  + 
+RE_023 = 1.3901239347E-05  + 
+RE_024 = 1.1276195687E-05  + 
+RE_025 = 1.0752226929E-05  + 
+RE_026 = 1.0708727952E-05  + 
+RE_027 = 7.2968201301E-06  + 
+Cext	= 0.000117572922
+Qext	= 0.3742462341
+Cabs	= 0.0001171807014
+Qabs	= 0.3729977573
+all data is saved in 'tmp_13'
+box dimensions: 42x42x42
+lambda: 0.4827586207   Dipoles/lambda: 1015.81
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 39024
+Memory usage for MatVec matrices: 21.6 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 37.1 MB
+
+here we go, calc Y
+
+CoupleConstant:2.720284173e-11+1.788309694e-11i
+x_0 = E_inc
+RE_000 = 1.8148288095E-01
+RE_001 = 1.1347641612E-01  + 
+RE_002 = 9.7620564924E-02  + 
+RE_003 = 9.3683990094E-02  + 
+RE_004 = 7.3813247912E-02  + 
+RE_005 = 4.3735222222E-02  + 
+RE_006 = 2.3563270610E-02  + 
+RE_007 = 1.2097003209E-02  + 
+RE_008 = 6.5822475187E-03  + 
+RE_009 = 4.6393336403E-03  + 
+RE_010 = 2.9188204107E-03  + 
+RE_011 = 2.0153049215E-03  + 
+RE_012 = 1.3100782068E-03  + 
+RE_013 = 8.5341981971E-04  + 
+RE_014 = 5.9998898852E-04  + 
+RE_015 = 3.6411920246E-04  + 
+RE_016 = 2.4969428413E-04  + 
+RE_017 = 1.6991842227E-04  + 
+RE_018 = 1.1775403827E-04  + 
+RE_019 = 8.1989259160E-05  + 
+RE_020 = 5.8094530813E-05  + 
+RE_021 = 4.1330336815E-05  + 
+RE_022 = 2.7726282605E-05  + 
+RE_023 = 1.9803864260E-05  + 
+RE_024 = 1.4658249562E-05  + 
+RE_025 = 1.2048940948E-05  + 
+RE_026 = 1.1135148388E-05  + 
+RE_027 = 1.1415372386E-05  - 
+RE_028 = 8.8077133050E-06  + 
+Cext	= 0.0001221097041
+Qext	= 0.3886872602
+Cabs	= 0.0001217106919
+Qabs	= 0.3874171649
+all data is saved in 'tmp_14'
+box dimensions: 42x42x42
+lambda: 0.4896551724   Dipoles/lambda: 1030.32
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 39024
+Memory usage for MatVec matrices: 21.6 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 37.1 MB
+
+here we go, calc Y
+
+CoupleConstant:2.841662216e-11+1.87561108e-11i
+x_0 = E_inc
+RE_000 = 1.8952760718E-01
+RE_001 = 1.2046967450E-01  + 
+RE_002 = 1.0508926832E-01  + 
+RE_003 = 1.0152843298E-01  + 
+RE_004 = 8.1838282833E-02  + 
+RE_005 = 5.0573209625E-02  + 
+RE_006 = 2.8061562640E-02  + 
+RE_007 = 1.4717379582E-02  + 
+RE_008 = 8.1503271329E-03  + 
+RE_009 = 5.8578859330E-03  + 
+RE_010 = 3.7674587475E-03  + 
+RE_011 = 2.6539801128E-03  + 
+RE_012 = 1.7709959397E-03  + 
+RE_013 = 1.1791602664E-03  + 
+RE_014 = 8.4777919623E-04  + 
+RE_015 = 5.2687070419E-04  + 
+RE_016 = 3.6895780584E-04  + 
+RE_017 = 2.5669157942E-04  + 
+RE_018 = 1.8112526923E-04  + 
+RE_019 = 1.2829886054E-04  + 
+RE_020 = 9.2195123328E-05  + 
+RE_021 = 6.6488802653E-05  + 
+RE_022 = 4.5125668936E-05  + 
+RE_023 = 3.2563128638E-05  + 
+RE_024 = 2.4108572802E-05  + 
+RE_025 = 1.9513028345E-05  + 
+RE_026 = 1.7377006065E-05  + 
+RE_027 = 1.7757416861E-05  - 
+RE_028 = 1.6071032096E-05  + 
+RE_029 = 9.0897536026E-06  + 
+Cext	= 0.0001265266896
+Qext	= 0.4027469618
+Cabs	= 0.0001261142268
+Qabs	= 0.4014340518
+all data is saved in 'tmp_16'
+box dimensions: 40x40x40
+lambda: 0.5034482759   Dipoles/lambda: 1007.31
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 33552
+Memory usage for MatVec matrices: 18.8 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 32.1 MB
+
+here we go, calc Y
+
+CoupleConstant:3.730132305e-11+2.305907207e-11i
+x_0 = E_inc
+RE_000 = 2.1697610358E-01
+RE_001 = 1.4114371200E-01  + 
+RE_002 = 1.2591510287E-01  + 
+RE_003 = 1.2472126731E-01  + 
+RE_004 = 1.0729426172E-01  + 
+RE_005 = 7.4325969921E-02  + 
+RE_006 = 4.4452032302E-02  + 
+RE_007 = 2.5162261374E-02  + 
+RE_008 = 1.4285600092E-02  + 
+RE_009 = 1.0786762687E-02  + 
+RE_010 = 7.2516732165E-03  + 
+RE_011 = 5.3465756317E-03  + 
+RE_012 = 3.8454821965E-03  + 
+RE_013 = 2.6188029221E-03  + 
+RE_014 = 1.9821826315E-03  + 
+RE_015 = 1.3821415176E-03  + 
+RE_016 = 1.0671651032E-03  + 
+RE_017 = 7.7006126463E-04  + 
+RE_018 = 5.3813951362E-04  + 
+RE_019 = 3.8924737018E-04  + 
+RE_020 = 2.8142500218E-04  + 
+RE_021 = 2.0865879022E-04  + 
+RE_022 = 1.6114129635E-04  + 
+RE_023 = 1.2340938094E-04  + 
+RE_024 = 9.6108719061E-05  + 
+RE_025 = 8.0457025268E-05  + 
+RE_026 = 7.4573661473E-05  + 
+RE_027 = 7.7513859285E-05  - 
+RE_028 = 7.4589447721E-05  -+
+RE_029 = 4.9036411831E-05  + 
+RE_030 = 2.7678354437E-05  + 
+RE_031 = 1.5246484974E-05  + 
+RE_032 = 8.7251097577E-06  + 
+Cext	= 0.0001320529897
+Qext	= 0.4203377212
+Cabs	= 0.0001315982905
+Qabs	= 0.4188903686
+all data is saved in 'tmp_17'
+box dimensions: 40x40x40
+lambda: 0.5103448276   Dipoles/lambda: 1021.11
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 33552
+Memory usage for MatVec matrices: 18.8 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 32.1 MB
+
+here we go, calc Y
+
+CoupleConstant:3.998684864e-11+2.282035451e-11i
+x_0 = E_inc
+RE_000 = 2.2751991453E-01
+RE_001 = 1.5003844555E-01  + 
+RE_002 = 1.3638750163E-01  + 
+RE_003 = 1.3617117846E-01  + 
+RE_004 = 1.2031519875E-01  + 
+RE_005 = 8.8795148339E-02  + 
+RE_006 = 5.6392218270E-02  + 
+RE_007 = 3.3149956598E-02  + 
+RE_008 = 1.9272435396E-02  + 
+RE_009 = 1.4876806437E-02  + 
+RE_010 = 1.0347937767E-02  + 
+RE_011 = 7.8324107491E-03  + 
+RE_012 = 5.8543167416E-03  + 
+RE_013 = 4.1397315152E-03  + 
+RE_014 = 3.2324112697E-03  + 
+RE_015 = 2.3318386184E-03  + 
+RE_016 = 1.8453750037E-03  + 
+RE_017 = 1.3782167622E-03  + 
+RE_018 = 9.9420918094E-04  + 
+RE_019 = 7.4396841169E-04  + 
+RE_020 = 5.5656095971E-04  + 
+RE_021 = 4.2479316047E-04  + 
+RE_022 = 3.3672216819E-04  + 
+RE_023 = 2.6341943250E-04  + 
+RE_024 = 2.0829469733E-04  + 
+RE_025 = 1.7492604452E-04  + 
+RE_026 = 1.5978680733E-04  + 
+RE_027 = 1.6287994775E-04  - 
+RE_028 = 1.6878321291E-04  - 
+RE_029 = 1.3130057014E-04  + 
+RE_030 = 8.1516647221E-05  + 
+RE_031 = 4.6700606815E-05  + 
+RE_032 = 2.7022082833E-05  + 
+RE_033 = 1.6885634102E-05  + 
+RE_034 = 1.1557111265E-05  + 
+RE_035 = 8.1559573203E-06  + 
+Cext	= 0.0001302881407
+Qext	= 0.4147200323
+Cabs	= 0.0001298113089
+Qabs	= 0.4132022295
+all data is saved in 'tmp_19'
+box dimensions: 40x40x40
+lambda: 0.524137931   Dipoles/lambda: 1048.71
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 33552
+Memory usage for MatVec matrices: 18.8 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 32.1 MB
+
+here we go, calc Y
+
+CoupleConstant:4.508550361e-11+1.98992275e-11i
+x_0 = E_inc
+RE_000 = 2.4298093711E-01
+RE_001 = 1.6240304443E-01  + 
+RE_002 = 1.5180264358E-01  + 
+RE_003 = 1.5357692603E-01  - 
+RE_004 = 1.4187973064E-01  + 
+RE_005 = 1.1784683975E-01  + 
+RE_006 = 8.6103998654E-02  + 
+RE_007 = 5.5741440810E-02  + 
+RE_008 = 3.4045705484E-02  + 
+RE_009 = 2.7274009145E-02  + 
+RE_010 = 2.0316941749E-02  + 
+RE_011 = 1.6078809983E-02  + 
+RE_012 = 1.2901987973E-02  + 
+RE_013 = 9.8714453634E-03  + 
+RE_014 = 8.1866775570E-03  + 
+RE_015 = 6.3193653942E-03  + 
+RE_016 = 5.2321000242E-03  + 
+RE_017 = 4.1829868453E-03  + 
+RE_018 = 3.2192492695E-03  + 
+RE_019 = 2.5709204213E-03  + 
+RE_020 = 2.0617215698E-03  + 
+RE_021 = 1.6713112211E-03  + 
+RE_022 = 1.3975515068E-03  + 
+RE_023 = 1.1477779933E-03  + 
+RE_024 = 9.4379281300E-04  + 
+RE_025 = 8.0837994353E-04  + 
+RE_026 = 7.3322736861E-04  + 
+RE_027 = 7.1825581059E-04  + 
+RE_028 = 7.6346144746E-04  - 
+RE_029 = 7.6103552673E-04  -+
+RE_030 = 6.1161743095E-04  + 
+RE_031 = 4.0842187143E-04  + 
+RE_032 = 2.5226855041E-04  + 
+RE_033 = 1.5985509955E-04  + 
+RE_034 = 1.1076043990E-04  + 
+RE_035 = 8.1426944566E-05  + 
+RE_036 = 6.4136689161E-05  + 
+RE_037 = 5.1717104369E-05  + 
+RE_038 = 4.1210783510E-05  + 
+RE_039 = 3.3251030231E-05  + 
+RE_040 = 2.5412163345E-05  + 
+RE_041 = 2.0288306533E-05  + 
+RE_042 = 1.6088386318E-05  + 
+RE_043 = 1.2950364690E-05  + 
+RE_044 = 1.0368003170E-05  + 
+RE_045 = 8.4037644888E-06  + 
+Cext	= 0.0001140525938
+Qext	= 0.3630406816
+Cabs	= 0.0001135557386
+Qabs	= 0.3614591423
+all data is saved in 'tmp_20'
+box dimensions: 38x38x38
+lambda: 0.5310344828   Dipoles/lambda: 1009.4
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 28768
+Memory usage for MatVec matrices: 17.4 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 28.8 MB
+
+here we go, calc Y
+
+CoupleConstant:5.459762044e-11+2.036925204e-11i
+x_0 = E_inc
+RE_000 = 2.5091807391E-01
+RE_001 = 1.6740070456E-01  + 
+RE_002 = 1.5742072351E-01  + 
+RE_003 = 1.6163188735E-01  - 
+RE_004 = 1.5362998967E-01  + 
+RE_005 = 1.3532817638E-01  + 
+RE_006 = 1.0534435414E-01  + 
+RE_007 = 7.3599837267E-02  + 
+RE_008 = 4.8785729575E-02  + 
+RE_009 = 3.8754632249E-02  + 
+RE_010 = 2.9236126223E-02  + 
+RE_011 = 2.3200577948E-02  + 
+RE_012 = 1.9742540089E-02  + 
+RE_013 = 1.5912533523E-02  + 
+RE_014 = 1.3686496732E-02  + 
+RE_015 = 1.0691480285E-02  + 
+RE_016 = 8.6524170517E-03  + 
+RE_017 = 7.0360472878E-03  + 
+RE_018 = 5.8362935981E-03  + 
+RE_019 = 4.9335613769E-03  + 
+RE_020 = 4.0444981131E-03  + 
+RE_021 = 3.3888426181E-03  + 
+RE_022 = 2.7962085006E-03  + 
+RE_023 = 2.2919891339E-03  + 
+RE_024 = 1.9264971506E-03  + 
+RE_025 = 1.6437550607E-03  + 
+RE_026 = 1.4277658907E-03  + 
+RE_027 = 1.3074519167E-03  + 
+RE_028 = 1.2522092456E-03  + 
+RE_029 = 1.2769247114E-03  - 
+RE_030 = 1.3506191314E-03  - 
+RE_031 = 1.2781109139E-03  -+
+RE_032 = 9.5163915439E-04  + 
+RE_033 = 6.2326517502E-04  + 
+RE_034 = 4.0705479418E-04  + 
+RE_035 = 2.8592218052E-04  + 
+RE_036 = 2.1386444763E-04  + 
+RE_037 = 1.6967710706E-04  + 
+RE_038 = 1.3723641789E-04  + 
+RE_039 = 1.1295443664E-04  + 
+RE_040 = 9.2107990501E-05  + 
+RE_041 = 7.6622487228E-05  + 
+RE_042 = 6.1268380528E-05  + 
+RE_043 = 5.0006967757E-05  + 
+RE_044 = 4.0803866659E-05  + 
+RE_045 = 3.3563848996E-05  + 
+RE_046 = 2.8196559631E-05  + 
+RE_047 = 2.3248620549E-05  + 
+RE_048 = 1.9043030742E-05  + 
+RE_049 = 1.5663592618E-05  + 
+RE_050 = 1.3160276669E-05  + 
+RE_051 = 1.1083401236E-05  + 
+RE_052 = 9.2256024831E-06  + 
+Cext	= 0.0001012579674
+Qext	= 0.3223141209
+Cabs	= 0.0001007695952
+Qabs	= 0.3207595837
+all data is saved in 'tmp_21'
+box dimensions: 38x38x38
+lambda: 0.5379310345   Dipoles/lambda: 1022.51
+Required relative residual norm: 1e-05
+Total number of occupied dipoles: 28768
+Memory usage for MatVec matrices: 17.4 MB
+Calculating Green's function (Dmatrix)
+Fourier transform of Dmatrix......
+Initializing FFTW3
+Total memory usage: 28.8 MB
+
+here we go, calc Y
+
+CoupleConstant:5.570370215e-11+1.726394993e-11i
+x_0 = E_inc
+RE_000 = 2.5085886114E-01
+RE_001 = 1.6656615046E-01  + 
+RE_002 = 1.5698279753E-01  + 
+RE_003 = 1.6157156781E-01  - 
+RE_004 = 1.5523341739E-01  + 
+RE_005 = 1.4122065515E-01  + 
+RE_006 = 1.1746377733E-01  + 
+RE_007 = 8.7505984937E-02  + 
+RE_008 = 6.0147000579E-02  + 
+RE_009 = 4.8712137026E-02  + 
+RE_010 = 3.7846098524E-02  + 
+RE_011 = 3.0451892746E-02  + 
+RE_012 = 2.6472372809E-02  + 
+RE_013 = 2.2050141207E-02  + 
+RE_014 = 1.9404797368E-02  + 
+RE_015 = 1.5612113089E-02  + 
+RE_016 = 1.2856021933E-02  + 
+RE_017 = 1.0681695756E-02  + 
+RE_018 = 9.0670325321E-03  + 
+RE_019 = 7.8489658953E-03  + 
+RE_020 = 6.6018557786E-03  + 
+RE_021 = 5.6586249139E-03  + 
+RE_022 = 4.8017017293E-03  + 
+RE_023 = 4.0395572982E-03  + 
+RE_024 = 3.4700485422E-03  + 
+RE_025 = 3.0182345379E-03  + 
+RE_026 = 2.6616300259E-03  + 
+RE_027 = 2.4520168156E-03  + 
+RE_028 = 2.3348150116E-03  + 
+RE_029 = 2.3316432080E-03  + 
+RE_030 = 2.4534744151E-03  - 
+RE_031 = 2.4726461651E-03  - 
+RE_032 = 2.0764426906E-03  + 
+RE_033 = 1.4940270267E-03  + 
+RE_034 = 1.0265960640E-03  + 
+RE_035 = 7.3400823960E-04  + 
+RE_036 = 5.4876935592E-04  + 
+RE_037 = 4.3756174564E-04  + 
+RE_038 = 3.6141218880E-04  + 
+RE_039 = 3.0689016730E-04  + 
+RE_040 = 2.5905722149E-04  + 
+RE_041 = 2.2169976842E-04  + 
+RE_042 = 1.8244760866E-04  + 
+RE_043 = 1.5231102481E-04  + 
+RE_044 = 1.2717951682E-04  + 
+RE_045 = 1.0713747108E-04  + 
+RE_046 = 9.2143695539E-05  + 
+RE_047 = 7.8082800399E-05  + 
+RE_048 = 6.5733558656E-05  + 
+RE_049 = 5.5608579336E-05  + 
+RE_050 = 4.7931419434E-05  + 
+RE_051 = 4.1356434550E-05  + 
+RE_052 = 3.5238784327E-05  + 
+RE_053 = 2.9962072522E-05  + 
+RE_054 = 2.5950276277E-05  + 
+RE_055 = 2.3177096843E-05  + 
+RE_056 = 1.9674557931E-05  + 
+RE_057 = 1.6893413232E-05  + 
+RE_058 = 1.5375602688E-05  + 
+RE_059 = 1.4630613063E-05  + 
+RE_060 = 1.4409279466E-05  + 
+RE_061 = 1.4890110227E-05  - 
+RE_062 = 1.5902140797E-05  - 
+RE_063 = 1.5460756664E-05  -+
+RE_064 = 1.2776663785E-05  + 
+RE_065 = 8.9409614108E-06  + 
+Cext	= 8.674447876e-05
+Qext	= 0.2761162516
+Cabs	= 8.627740748e-05
+Qabs	= 0.2746295176

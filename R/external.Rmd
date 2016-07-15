@@ -15,7 +15,7 @@ library(plyr)
 adda_run <- function(ii=1, wavelength=500, epsilon=epsAu(wavelength)$epsilon, 
                      size = 20, grid=10, ..., 
                      run="", params = "params.txt", comment="",
-                     adda = "../src/seq/adda"){
+                     adda = "../adda/src/seq/adda"){
   m <- sqrt(epsilon)
   part <- paste0(" -size ", size*1e-3, " -grid ", grid)
   dispersion <- paste(" -lambda ", wavelength*1e-3, "-m ", Re(m), Im(m), collapse="")
